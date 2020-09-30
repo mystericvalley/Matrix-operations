@@ -2,7 +2,8 @@
 # coding: utf-8
 
 # In[1]:
-
+#functions have definedfor better understanding
+#instead of using built  in        libraries
 
 def accept_array(arr):
     n=int(input("Enter no. of elements to be entered :"))
