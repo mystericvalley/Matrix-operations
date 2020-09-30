@@ -4,7 +4,7 @@
 # In[1]:
 
 
-def arr_accept(arr):
+def accept_array(arr):
     n=int(input("Enter no. of elements to be entered :"))
     print("Enter the elements")
     for i in range (n):
@@ -12,7 +12,7 @@ def arr_accept(arr):
         
         
         
-def disp_array(arr):
+def show_array(arr):
     print("The array formed is :",arr)
     
     
@@ -46,9 +46,9 @@ def main():
               4.Exit from the program""")
         choice=int(input("Enter your choice"))
         if(choice==1):
-            arr_accept(arr)
+            accept_array(arr)
         elif(choice==2):
-            disp_array(arr)
+            show_array(arr)
         elif(choice==3):
             k=int(input("Enter the elements which are to be searched:-"))
             l=0
