@@ -13,7 +13,7 @@ def accept_array(arr):
         
         
 def show_array(arr):
-    print("The array formed is :",arr)
+    print("The array is :",arr)
     
     
 def ternary_search(arr,l,h,k):
@@ -53,14 +53,14 @@ def main():
             k=int(input("Enter the elements which are to be searched:-"))
             l=0
             h=len(arr)-1
-            print("The element to be searched is:- ",k)
+            print("The element to be searched is: ",k)
             res=ternary_search(arr,l,h,k)
             if(res==-1):
                 print("The value entered is not present in array")
             else:
                 print("Element has been found at index:- ",res)
         elif(choice==4):
-            print("You have exited the program")
+            print("You have exited ")
             break
         
         else:
